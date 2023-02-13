@@ -39,7 +39,7 @@
 }
 #header img:last-of-type{
     position: relative;
-    top: 50px;
+    top: 3px;
     left: 70%;
     width: 358px;
 }
@@ -73,4 +73,54 @@
                 background: var(--rapture-blue);
                 display: block;
                 margin-bottom: 79px;
+            }
+
+/* build */
+#build {
+    background: var(--sacramento-state-green);
+    position: relative;
+}
+    .build-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .build-content .build-title {
+        margin-right: 125px;
+        width: 60%;
+    }
+        .build-content .build-title span {
+            width: 50px;
+            height: 4px;
+            background: var(--light-coral);
+            display: block;
+            margin-bottom: 54px;
+        }
+        .build-content .build-title h2 {
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 3rem;
+            color: var(--white);
+        }
+    /* build our */
+    .build-our-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
+        .build-our-item img {
+            width: 72px;
+            margin-right: 23px;
+        }
+            .build-our-item .build-our-item-desc h3 {
+                font-weight: 700;
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+                color: var(--light-coral);
+                margin-bottom: 16px;
+            }
+            .build-our .our-bg {
+                position: absolute;
+                bottom: 0;
+                right: 0;
             }
