@@ -293,3 +293,101 @@
         .footer-right a:last-of-type:not(.footer-social a:last-of-type):focus {
             opacity: 1;
         }
+
+/* About */
+#about {
+    position: relative;
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+    .about-content {
+        display: flex;
+        justify-content: space-between;
+    }
+        .about-content h1 {
+            font-size: 4rem;
+            line-height: 6.25rem;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: 150px;
+        }
+            .about-desc span {
+                width: 50px;
+                height: 4px;
+                background: var(--light-coral);
+                display: block;
+                margin-bottom: 40px;
+            }
+            .about-desc p {
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+            }
+            #about img {
+                height: 200px;
+                position: absolute;
+                bottom: -120px;
+                right: 0;
+            }
+
+/* Meet */
+#meet {
+    background: var(--deep-jungle-green);
+    position: relative;
+}
+#meet img:first-of-type:not(.container img) {
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#meet img:last-of-type:not(.container img) {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.meet-title h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    margin-bottom: 64px;
+}
+    .meet-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .meet-content .meet-item {
+        width: 30%;
+        background: var(--sacramento-state-green);
+        margin-bottom: 76px;
+        position: relative;
+        text-align: center;
+        padding: 32px 24px 56px;
+    }
+        .meet-item img:first-of-type {
+            width: 96px;
+            height: 96px;
+            margin-bottom: 16px;
+        }
+        .meet-item img:last-of-type {
+            width: 56px;
+            height: 56px;
+            position: absolute;
+            bottom: -28px;
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+        }
+            .meet-item h3 {
+                font-weight: 700;
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+                color: var(--rapture-blue);
+            }
+            .meet-item p {
+                font-style: italic;
+                font-weight: 500;
+                font-size: 0.9375rem;
+                line-height: 1.5625rem;
+            }

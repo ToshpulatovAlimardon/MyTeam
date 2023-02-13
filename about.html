@@ -1,34 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>MyTeam</title>
-    <!-- Fonts link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
-    <!-- Icon link -->
-    <link rel="shortcut icon" href="./images/navbar/icon.png">
-    <!-- Css link -->
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="./css/component.css">
-    <link rel="stylesheet" href="./css/general.css">
-</head>
-<body>
-    <nav id="nav" class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="./images/navbar/logo.svg" alt="">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Title -->
+        <title>MyTeam</title>
+        <!-- Fonts link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,500&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Icon link -->
+        <link rel="shortcut icon" href="./images/navbar/icon.png" />
+        <!-- Icon -->
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <!-- Css link -->
+        <link
+            rel="stylesheet"
+            href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+        />
+        <link rel="stylesheet" href="./css/component.css" />
+        <link rel="stylesheet" href="./css/general.css" />
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav id="nav" class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./images/navbar/logo.svg" alt="" />
+                </div>
+                <a href="./home.html">home</a>
+                <a href="./about.html" class="active">about</a>
             </div>
-            <a href="./home.html">home</a>
-            <a href="./about.html" class="active">about</a>
-        </div>
-        <div class="contact-nav">
-            <a href="./contact.html" class="btn">contact us</a>
-        </div>
-    </nav>
-</body>
+            <div class="contact-nav">
+                <a href="./contact.html" class="btn">contact us</a>
+            </div>
+        </nav>
+        <!-- about -->
+        <section id="about" class="p0">
+            <div class="container about-content">
+                <h1>About</h1>
+                <div class="about-desc">
+                    <span></span>
+                    <p>We help companies build dynamic teams made up of top global talent. Using our network of passionate professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the best products and experiences. We’ll bring those teams to you.</p>
+                </div>
+            </div>
+            <img src="./images/about/bg.png" alt="">
+        </section>
+        <!-- Meet -->
+        <section id="meet">
+            <img src="./images/meet/1.png" alt="" class="meet-bg-one">
+            <div class="container meet-title">
+                <h2>Meet the directors</h2>
+                <div class="meet-content">
+                    <!-- meet item -->
+                    <div class="meet-item">
+                        <img src="./images/meet/human/1.png" alt="">
+                        <h3>Nikita Marks</h3>
+                        <p>Founder & CEO</p>
+                        <img src="./images/meet/human/plus.png" alt="">
+                    </div>
+                    <!-- meet item -->
+                    <div class="meet-item">
+                        <img src="./images/meet/human/2.png" alt="">
+                        <h3>Nikita Marks</h3>
+                        <p>Founder & CEO</p>
+                        <img src="./images/meet/human/plus.png" alt="">
+                    </div>
+                    <!-- meet item -->
+                    <div class="meet-item">
+                        <img src="./images/meet/human/3.png" alt="">
+                        <h3>Nikita Marks</h3>
+                        <p>Founder & CEO</p>
+                        <img src="./images/meet/human/plus.png" alt="">
+                    </div>
+                    <!-- meet item -->
+                    <div class="meet-item">
+                        <img src="./images/meet/human/4.png" alt="">
+                        <h3>Nikita Marks</h3>
+                        <p>Founder & CEO</p>
+                        <img src="./images/meet/human/plus.png" alt="">
+                    </div>
+                    <!-- meet item -->
+                    <div class="meet-item">
+                        <img src="./images/meet/human/5.png" alt="">
+                        <h3>Nikita Marks</h3>
+                        <p>Founder & CEO</p>
+                        <img src="./images/meet/human/plus.png" alt="">
+                    </div>
+                    <!-- meet item -->
+                    <div class="meet-item">
+                        <img src="./images/meet/human/6.png" alt="">
+                        <h3>Nikita Marks</h3>
+                        <p>Founder & CEO</p>
+                        <img src="./images/meet/human/plus.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <img src="./images/meet/2.png" alt="">
+        </section>
+        
+        <!-- ready -->
+        <section id="ready" class="p0">
+            <img src="./images/ready/bg.svg" alt="" />
+            <div class="container ready-content">
+                <h2>Ready to get started?</h2>
+                <a href="./contact.html" class="btn ready-btn">contact us</a>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer id="footer" class="container">
+            <div class="footer-title">
+                <img src="./images/navbar/logo.svg" alt="" />
+                <div class="footer-navbar">
+                    <a href="./home.html" class="active">home</a>
+                    <a href="./about.html">about</a>
+                </div>
+            </div>
+            <div class="footer-desc">
+                <a href="#">987 Hillcrest Lane</a>
+                <a href="#">Irvine, CA</a>
+                <a href="#">California 92714</a>
+                <a href="#">Call Us : 949-833-7432</a>
+            </div>
+            <div class="footer-right">
+                <div class="footer-social">
+                    <a href="#"><i class="bx bxl-facebook-square"></i></a>
+                    <a href="#"><i class="bx bxl-pinterest"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                </div>
+                <a href="#">Copyright 2020. All Rights Reserved</a>
+            </div>
+        </footer>
+    </body>
 </html>
