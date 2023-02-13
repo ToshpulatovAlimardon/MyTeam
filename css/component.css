@@ -86,3 +86,7 @@ section {
 .active {
     color: var(--light-coral)!important;
 }
+/* Padding */
+.p0 {
+    padding: 0;
+}
