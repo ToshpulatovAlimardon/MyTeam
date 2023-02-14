@@ -4,11 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 70px 0;
+    flex-wrap: wrap;
+}
+.contact-nav a {
+    display: block;
 }
     .navbar {
         display: flex;
         align-items: center;
+        padding: 70px 0;
     }
     .navbar .logo img {
         height: 40px;
@@ -723,4 +727,153 @@
             color: var(--white);
             opacity: 0.6;
         }
+}
+
+/* Media 375px */
+@media screen and (max-width: 375px) {
+    /* nav */
+    .navbar {
+        padding: 48px 0 20px;
+    }
+    .navbar .logo img {
+        height: 32px;
+        margin-right: 20px;
+    }
+    .navbar a {
+        margin-right: 20px;
+    }
+    .navbar a:hover,
+    .navbar a:focus {
+        color: var(--light-coral);
+    }
+
+    /* Header */
+    #header {
+        padding: 40px 0 197px;
+    }
+    .header-content h1,
+    .header-content h1 span {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+        .header-content .header-desc p {
+            padding: 0;
+        }
+
+    /* build */
+    #build {
+        padding: 64px 0;
+    }
+        .build-content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .build-content .build-title {
+            margin-right: 0;
+            width: 100%;
+        }
+            .build-content .build-title span {
+                margin-bottom: 32px;
+            }
+            .build-content .build-title h2 {
+                font-size: 2rem;
+                line-height: 2rem;
+            }
+        /* build our */
+        .build-our-item {
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+    /* compani */
+    #compani {
+        padding: 140px 0;
+    }
+    .compani-title h2 {
+        padding: 0px;
+    }
+
+    /* ready */
+    .ready-content{
+        justify-content: center;
+        padding: 0 10px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .ready-content h2 {
+        margin-bottom: 24px;
+    }
+
+    /* Footer */
+    #footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer-title {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .footer-title img {
+        height: 24px;
+    }
+    .footer-desc {
+        margin-bottom: 40px;
+    }
+    .footer-right {
+        margin: 0;
+        align-items: center;
+    }
+    .footer-right i {
+        margin-bottom: 18px;
+    }
+
+    /* About */
+    #about {
+        margin-bottom: 108px;
+        margin-top: 40px;
+    }
+    #about img {
+        bottom: -220px;
+    }
+        .about-content h1 {
+            line-height: 2.5rem;
+            margin-bottom: 1rem;
+        }
+            .about-desc p {
+                padding: 0;
+                z-index: 1010;
+                position: relative;
+            }
+
+    /* Meet */
+    #meet {
+        overflow: hidden;
+    }
+    .meet-content .meet-item {
+        width: 100%;
+    }
+    #meet img:first-of-type:not(.container img) {
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    
+    /* Client */
+    #client {
+        padding: 88px 0;
+    }
+        #client img:not(.client-content img) {
+            display: none;
+        }
+
+    /* contact */
+    #contact .contact-bg-one {
+        display: none;
+    }
 }

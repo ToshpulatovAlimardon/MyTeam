@@ -19,6 +19,13 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+/* Media 375px */
+@media screen and (max-width: 375px) {
+    .container {
+        width: 90%;
+    }
+
+}
 /* html */
 :root {
     font-family: 'Livvic', sans-serif;
