@@ -730,7 +730,7 @@
 }
 
 /* Media 375px */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
     /* nav */
     .navbar {
         padding: 48px 0 20px;
